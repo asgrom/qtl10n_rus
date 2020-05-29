@@ -2,7 +2,6 @@ from PyQt5.QtCore import QTranslator
 from PyQt5.QtWidgets import QApplication
 import os
 
-
 l18n_ru = os.path.abspath('/usr/share/qt5/tranlations')
 
 
@@ -16,7 +15,3 @@ def setupRussiaLang(app: QApplication):
     except Exception as e:
         print('ERROR LOCALIZATION')
         print(e)
-
-
-if __name__ == "__main__":
-    setupRussiaLang()
